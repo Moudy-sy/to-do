@@ -1,0 +1,48 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-color: rgba(0, 255, 255, 0.42);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+li {
+  margin-bottom: 10px;
+  border: 1px gray;
+  border-radius: 10px;
+  width: 85%;
+  padding: 20px;
+  background-color: rgba(211, 211, 211, 0.209);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 300px;
+  border-color: rgba(0, 255, 255, 0.42);
+  border-style: double;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+}
+
+.delete-button {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
