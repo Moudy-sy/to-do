@@ -30,7 +30,7 @@ h2 {
 }
 
 input {
-    width: 300px;
+    max-width: 300px;
     border-color: rgba(0, 255, 255, 0.42);
     border-style: double;
     border-radius: 5px;
@@ -41,8 +41,12 @@ input {
     align-items: center;
     justify-content: center;
     height: 10px;
+    height: 50%;
 }
 
 .delete-button {
     float: right;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3px;
 }
